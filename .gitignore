@@ -1,24 +1,68 @@
-﻿__pycache__/
+﻿# ── Python ──────────────────────────────────────────────────
+__pycache__/
 *.py[cod]
-*.class
+*$py.class
 *.so
-.Python
-env/
-venv/
-ENV/
+*.egg
 *.egg-info/
 dist/
 build/
 .eggs/
-*.egg
+.Python
+env/
+venv/
+.venv/
+pip-wheel-metadata/
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# ── Node / Next.js ──────────────────────────────────────────
+node_modules/
+frontend/.next/
+frontend/out/
+frontend/.turbo/
+*.tsbuildinfo
+frontend/next-env.d.ts
+
+# ── Environment & Secrets ───────────────────────────────────
 .env
-*.log
+.env.local
+.env.*.local
+backend/.env
+!.env.example
+!backend/.env.example
+!frontend/.env.example
+
+# ── Databases & Uploads ─────────────────────────────────────
 *.db
 *.sqlite3
+*.sqlite
+uploads/
+storage/
+output/
+
+# ── Logs ───────────────────────────────────────────────────
+logs/
+*.log
+
+# ── IDE & OS ────────────────────────────────────────────────
 .vscode/
 .idea/
+.kiro/
+*.swp
+*.swo
 .DS_Store
 Thumbs.db
-logs/
-workspace/
-data/
+desktop.ini
+
+# ── Docker ─────────────────────────────────────────────────
+docker/data/
+
+# ── Test artifacts ─────────────────────────────────────────
+test-results/
+playwright-report/
+.playwright/

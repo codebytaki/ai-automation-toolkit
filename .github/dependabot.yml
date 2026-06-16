@@ -1,0 +1,30 @@
+version: 2
+
+updates:
+  # Python backend
+  - package-ecosystem: "pip"
+    directory: "/backend"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+    groups:
+      ai-libs:
+        patterns: ["openai", "anthropic", "litellm", "langchain*", "langgraph*"]
+      security:
+        patterns: ["passlib", "python-jose", "cryptography"]
+
+  # Node.js frontend
+  - package-ecosystem: "npm"
+    directory: "/frontend"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+    groups:
+      nextjs:
+        patterns: ["next", "react", "react-dom"]
+
+  # GitHub Actions
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "monthly"
