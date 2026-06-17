@@ -1,5 +1,4 @@
 # Lightweight CI dependencies — excludes heavy AI/ML/browser/vector packages
-# that exceed GitHub Actions free-tier time and memory limits.
 # Full production dependencies are in requirements.txt.
 
 # ── Web Framework ───────────────────────────────────────────
