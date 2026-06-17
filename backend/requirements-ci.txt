@@ -30,7 +30,7 @@ litellm==1.55.8
 
 # ── Utils ───────────────────────────────────────────────────
 loguru==0.7.3
-python-dotenv==1.0.1
+python-dotenv==1.2.2
 tenacity==9.0.0
 aiofiles==24.1.0
 
