@@ -33,7 +33,7 @@ langgraph==0.2.60
 playwright==1.49.1
 
 # ── Web Scraping ────────────────────────────────────────────
-httpx==0.28.1
+httpx>=0.24,<1
 beautifulsoup4==4.12.3
 lxml==5.3.0
 
@@ -68,7 +68,6 @@ aiofiles==24.1.0
 pytest==8.3.4
 pytest-asyncio==0.24.0
 pytest-cov==6.0.0
-httpx==0.28.1
 factory-boy==3.3.1
 
 # ── Code Quality ────────────────────────────────────────────
