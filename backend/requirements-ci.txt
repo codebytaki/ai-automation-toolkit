@@ -22,7 +22,7 @@ pydantic-settings==2.6.1
 pydantic==2.10.3
 
 # ── HTTP ────────────────────────────────────────────────────
-httpx==0.28.1
+httpx>=0.24,<1
 
 # ── AI (required at import time by app modules) ─────────────
 litellm==1.55.8
