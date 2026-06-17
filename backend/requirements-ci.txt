@@ -24,6 +24,9 @@ pydantic==2.10.3
 # ── HTTP ────────────────────────────────────────────────────
 httpx==0.28.1
 
+# ── AI (required at import time by app modules) ─────────────
+litellm==1.55.8
+
 # ── Utils ───────────────────────────────────────────────────
 loguru==0.7.3
 python-dotenv==1.0.1
