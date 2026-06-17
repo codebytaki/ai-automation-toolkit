@@ -54,7 +54,7 @@ python-magic==0.4.27
 # ── Integrations ────────────────────────────────────────────
 PyGithub==2.5.0
 slack-sdk==3.33.4
-notion-client==2.3.0
+notion-client==3.1.0
 python-telegram-bot==21.8
 
 # ── Utils ───────────────────────────────────────────────────
